@@ -1,0 +1,53 @@
+{
+    _id: ObjectId('65e4982cc40769d6d36c516d'),
+    student_id: '001',
+    student_number: '202301001',
+    student_name: 'sunshine',
+    student_gender: 'female',
+    student_age: 18,
+    class_designation: '电子A2301',
+    date: '2024-02-26',
+    birthplace: '河南省',
+    family_info: {
+      tel: [
+        '13788886666',
+        '0373-656768'
+      ],
+      addr: [
+        '河南省',
+        '南阳市'
+      ]
+    },
+    grade: [
+      {
+        _id: ObjectId('65e4c1e6c40769d6d36c5180'),
+        course_id: '001',
+        course_code: '123456',
+        course_title: 'Circuit fundementals',
+        course_credit: 4,
+        grade: 78,
+        student_number: '202301001',
+        date: '2024-02-26'
+      },
+      {
+        _id: ObjectId('65e4c20dc40769d6d36c5181'),
+        course_id: '002',
+        course_code: '234567',
+        course_title: 'Digital circuit',
+        course_credit: 4,
+        grade: 86,
+        student_number: '202301001',
+        date: '2024-02-26'
+      },
+      {
+        _id: ObjectId('65e4c234c40769d6d36c5182'),
+        course_id: '003',
+        course_code: '345678',
+        course_title: 'Analog Circuit',
+        course_credit: 4,
+        grade: 60,
+        student_number: '202301001',
+        date: '2024-02-26'
+      }
+    ]
+  }
